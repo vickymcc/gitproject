@@ -30,13 +30,13 @@
         </style>
     </head>
     <body>
-        <table style="width:80%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;padding-top: 50px;background-color: dimgrey;color:white;">
+        <table style="width:80%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;background-color: dimgrey;">
             <tr style="" >
-                <td  style="" >
-                    logo image
+                <td>
+                    <img height="100" src="images/twitter.png">
                 </td>
-                <td align="right"  style="" >
-                    section three
+                <td align="right" style="background:lightblue;width: 20%;padding-right: 5%;" >
+                    <span class="bold_font" >Date:</span><span><?= ' ' . date('d-m-Y') ?></span>
                 </td>
             </tr>
         </table>
@@ -44,12 +44,14 @@
             <tbody>
                 <tr>
                     <td>
-                        <span class="regular_font" >Information</span>
                         <div class="font">
-                            The below text is a description... 
+                            The Below text is a description... 
                         </div>
                     </td>
                     <td>
+                        <div class="font">
+                            The Below Details Listings... 
+                        </div>
                     </td>
                 </tr>
                 <tr class="medium_font" >
